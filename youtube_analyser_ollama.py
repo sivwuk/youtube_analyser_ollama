@@ -37,7 +37,7 @@ def row_to_string(row):
         raise ValueError("Input must be a pandas Series.")
 
 # Example usage
-row_index = 14  # Change this to the index of the row you want to convert
+row_index = 0  # Change this to the index of the row you want to convert
 row_string = row_to_string(df.iloc[row_index])
 print(row_string)
   
